@@ -1,17 +1,17 @@
 #How to deply an Ec2 instance on AWS from a linux machine
 
 provider "aws" {
-    region = "us-east-1"
-#    access_key = "access_key"
-#    secret_key = "secret_key"
+    region = "set the region"
+#    access_key = "set the AWS IAM root_key "
+#    secret_key = "the IAM_SECRET_KEY"
 }
 
 
 #Deploy the test ec2 instance
 
-resource"aws_instance" "terraform-instance1" {
-         ami = "ami-0230bd60aa48260c6"
-         instance_type = "t1.micro"
+resource"<the resource_type>" "<resource_name1>" {
+         ami = "put in the ami"
+         instance_type = "ti.micro"
          tags = {
          Name = "Jenkins"
          }
