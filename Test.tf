@@ -1,4 +1,4 @@
-#configuring provider
+#How to deply an Ec2 instance on AWS from a linux machine
 
 provider "aws" {
     region = "us-east-1"
