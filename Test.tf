@@ -1,5 +1,5 @@
 #How to deply an Ec2 instance on AWS from a linux machine
-
+#https://github.com/btkrausen/hashicorp
 provider "aws" {
     region = "set the region"
 #    access_key = "set the AWS IAM root_key "
